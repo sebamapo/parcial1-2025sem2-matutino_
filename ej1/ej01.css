@@ -4,3 +4,98 @@
   font-weight: 700;
   font-style: normal;
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdd835;
+  padding: 20px;
+}
+
+.header-content h1 {
+  font-family: 'Rufina', serif;
+  font-size: 2.5rem;
+  color: #b71c1c;
+  margin: 0;
+}
+
+.header-content p {
+  font-size: 1rem;
+  color: #000;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.menu-section {
+  text-align: center;
+  margin: 40px 20px;
+}
+
+.menu-section h2 {
+  font-family: 'Rufina', serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.menu-section p {
+  font-size: 1rem;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.menu-items {
+  flex: 1;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  font-family: 'Rufina', serif;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.menu-item p {
+  font-size: 1rem;
+  color: #757575;
+  margin: 5px 0;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.menu-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+.menu.horizontal {
+  flex-direction: row;
+  text-align: left;
+}

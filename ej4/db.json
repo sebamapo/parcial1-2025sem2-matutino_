@@ -1,7 +1,28 @@
 {
   "users": [
-    { "id": 1, "name": "Alice", "role": "Admin", "email": "alice@example.com" },
-    { "id": 2, "name": "Bob", "role": "Editor", "email": "bob@example.com" },
-    { "id": 3, "name": "Cara", "role": "Viewer", "email": "cara@example.com" }
+    {
+      "id": "f7f6",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "role": "Admin"
+    },
+    {
+      "id": "b3d6",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "role": "Editor"
+    },
+    {
+      "id": "e710",
+      "name": "Cara",
+      "email": "cara@example.com",
+      "role": "Admin"
+    },
+    {
+      "id": "aa7a",
+      "name": "seba",
+      "email": "sebastian.martony@correo.ucu.edu.uy",
+      "role": "Admin"
+    }
   ]
 }
